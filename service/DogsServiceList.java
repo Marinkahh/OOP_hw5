@@ -6,7 +6,7 @@ import org.example.seminar5.hw.model.Dog;
 import java.util.Iterator;
 import java.util.List;
 
-public class ServiceListOfDogs implements Iterable<Dog> {
+public class DogsServiceList implements Iterable<Dog> {
     private List<Dog> listDogs;
 
     public List<Dog> getListDogs() {
@@ -19,6 +19,6 @@ public class ServiceListOfDogs implements Iterable<Dog> {
 
     @Override
     public Iterator<Dog> iterator() {
-        return new ServiceListOfDogsIterator(listDogs);
+        return new DogsServiceListIterator(listDogs);
     }
 }

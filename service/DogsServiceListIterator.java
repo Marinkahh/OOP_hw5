@@ -5,10 +5,10 @@ import org.example.seminar5.hw.model.Dog;
 import java.util.Iterator;
 import java.util.List;
 
-public class ServiceListOfDogsIterator implements Iterator<Dog> {
+public class DogsServiceListIterator implements Iterator<Dog> {
     private List<Dog>  listOfDogIterable;
     public static int count;
-    public ServiceListOfDogsIterator(List<Dog> listOfDogIterable) {
+    public DogsServiceListIterator(List<Dog> listOfDogIterable) {
         this.listOfDogIterable = listOfDogIterable;
     }
 
